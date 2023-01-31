@@ -67,7 +67,7 @@ export default {
             <button class="mx-auto d-block">BECOME A VIP</button>
         </div>
         <a href="#">
-            <img class="mx-auto d-block" src="../assets/img/avada-nightclub-play-showreel-200x47.png" alt="">
+            <img class="mx-auto d-block p-4" src="../assets/img/avada-nightclub-play-showreel-200x47.png" alt="">
         </a>
     </div>
 </template>

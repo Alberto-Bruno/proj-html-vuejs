@@ -21,8 +21,8 @@ export default {
 
 <template>
     <HeaderApp></HeaderApp>
-    <MainSpecialEvents></MainSpecialEvents>
     <MainWelcome></MainWelcome>
+    <MainSpecialEvents></MainSpecialEvents>
     <FooterApp></FooterApp>
 </template>
 
@@ -31,6 +31,5 @@ export default {
 
 * {
     background-color: #1b1e26;
-    background-image: url('../assets/img/avada-nightclub-home-hero.jpg');
 }
 </style>
