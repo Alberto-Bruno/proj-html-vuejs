@@ -1,7 +1,7 @@
 <script>
 import HeaderApp from './components/HeaderApp.vue';
-import MainSpecialEvents from './components/Main/MainSpecialEvents.vue';
 import MainWelcome from './components/Main/MainWelcome.vue';
+import MainSpecialEvents from './components/Main/MainSpecialEvents.vue';
 import FooterApp from './components/FooterApp.vue';
 
 export default {
@@ -12,8 +12,8 @@ export default {
     },
     components: {
         HeaderApp,
-        MainSpecialEvents,
         MainWelcome,
+        MainSpecialEvents,
         FooterApp
     }
 }
@@ -30,6 +30,6 @@ export default {
 @use './assets/Styles/style.scss' as*;
 
 * {
-    background-color: #1b1e26;
+    background-color: #161c2b;
 }
 </style>

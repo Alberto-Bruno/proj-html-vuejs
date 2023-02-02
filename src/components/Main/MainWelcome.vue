@@ -29,9 +29,7 @@ export default {
     <main class="container-fluid">
         <div class="row">
             <img class="image-dj" src="../../assets/img/avada-nightclub-resident-profile.jpg" alt="">
-            <h4 class="dj-set-avada">dj avada</h4>
             <img src="../../assets/img/avada-nightclub-lisahouse-inset-new.jpg" alt="">
-            <h4 class="dj-set-blondie">dj blondie</h4>
         </div>
     </main>
 </template>
@@ -50,6 +48,10 @@ export default {
         width: 40%;
         height: 400px;
     }
+
+    strong {
+        color: #6fb8f6;
+    }
 }
 
 img {
@@ -63,20 +65,6 @@ img {
         color: $color-blue;
     }
 
-}
-
-.dj-set-avada {
-    position: absolute;
-    left: 40px;
-    padding: 50px;
-    color: white;
-}
-
-.dj-set-blondie {
-    position: absolute;
-    left: 1000px;
-    padding: 50px;
-    color: white;
 }
 
 .image-dj {
