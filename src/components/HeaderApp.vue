@@ -89,6 +89,7 @@ export default {
 
     h2 {
         width: 60%;
+        border-top: 3px solid #46b1fd;
     }
 
     button {
@@ -99,10 +100,6 @@ export default {
         color: white;
         font-size: 20px;
         cursor: pointer;
-    }
-
-    .img-nightclub {
-        border-bottom: 3px solid #6fb8f6;
     }
 }
 
@@ -128,7 +125,7 @@ header {
                 padding: 1rem;
                 font-size: 10px;
                 font-family: 'Roboto', sans-serif;
-                font-weight: 500;
+                font-weight: 700;
                 display: flex;
                 align-items: center;
 

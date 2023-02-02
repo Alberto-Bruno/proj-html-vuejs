@@ -50,7 +50,7 @@ export default {
     }
 
     strong {
-        color: #6fb8f6;
+        color: #46b1fd;
     }
 }
 
