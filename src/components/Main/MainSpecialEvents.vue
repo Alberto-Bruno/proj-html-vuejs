@@ -11,32 +11,32 @@ export default {
         return {
             pictures: [
                 {
-                    image: '../../assets/img/avada_01.jpg',
+                    image: '../../public/image/avada_01.jpg',
                     title: 'DJ Fusion',
                     text: 'August 19,2021@8.00 am',
                 },
                 {
-                    image: '../../assets/img/avada_01.jpg',
+                    image: '../../public/image/avada_02.jpg',
                     title: 'House Nation',
                     text: 'August 19,2021@8.00 am',
                 },
                 {
-                    image: '../../assets/img/avada_01.jpg',
+                    image: '../../public/image/avada_03.jpg',
                     title: 'Jazz Night',
                     text: "August 19,2021@8.00 am",
                 },
                 {
-                    image: '../../assets/img/avada_01.jpg',
+                    image: '../../public/image/avada_04.jpg',
                     title: 'VIP Taster Sessions',
                     text: 'August 19,2021@8.00 am',
                 },
                 {
-                    image: '../../assets/img/avada_01.jpg',
+                    image: '../../public/image/avada_05.jpg',
                     title: "Funky House Rave",
                     text: 'August 19,2021@8.00 am',
                 },
                 {
-                    image: '../../assets/img/avada_01.jpg',
+                    image: '../../public/image/avada_06.jpg',
                     title: "Urban Vibes",
                     text: 'August 19,2021@8.00 am',
                 },
@@ -79,7 +79,7 @@ export default {
 
 <style scoped lang="scss">
 .jumbo {
-    padding-top: 20%;
+    padding-top: 15%;
     width: 100%;
     min-height: 500px;
     background-image: url('../../assets/img/avada-nightclub-homepage-events-background-new.jpg');

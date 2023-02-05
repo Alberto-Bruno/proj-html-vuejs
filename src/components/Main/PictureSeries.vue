@@ -9,8 +9,8 @@ export default {
 <template>
     <div class="card-image">
         <img :src="picture.image" :alt="picture.title">
-        <h3>{{ picture.title }}</h3>
-        <p>{{ picture.text }}</p>
+        <h3><strong>{{ picture.title }}</strong></h3>
+        <p><strong>{{ picture.text }}</strong></p>
     </div>
 </template>
 <style scoped lang="scss">
@@ -19,17 +19,20 @@ export default {
     margin: .5rem 1rem;
 
     img {
-        width: 150px;
+        width: 280px;
         height: 150px;
-        object-fit: fill;
     }
 
     h3 {
-        color: white;
+        color: #F63C81;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    p {
         text-align: left;
         font-size: 15px;
-        font-weight: 500;
-
     }
 }
 </style>
