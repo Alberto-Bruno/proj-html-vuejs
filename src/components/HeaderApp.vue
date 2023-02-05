@@ -99,6 +99,7 @@ export default {
         background-color: #F63C81;
         color: white;
         font-size: 20px;
+        font-weight: 600;
         cursor: pointer;
     }
 }
@@ -124,7 +125,6 @@ header {
                 height: 100%;
                 padding: 1rem;
                 font-size: 10px;
-                font-family: 'Roboto', sans-serif;
                 font-weight: 700;
                 display: flex;
                 align-items: center;

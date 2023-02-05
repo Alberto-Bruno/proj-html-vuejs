@@ -89,7 +89,8 @@ export default {
         padding: 10px 25px;
         background-color: #F63C81;
         color: white;
-        font-size: 20px;
+        font-size: 15px;
+        font-weight: 600;
         cursor: pointer;
     }
 
@@ -108,7 +109,8 @@ export default {
         padding: 10px 25px;
         background-color: #F63C81;
         color: white;
-        font-size: 20px;
+        font-size: 15px;
+        font-weight: 600;
         cursor: pointer;
     }
 
